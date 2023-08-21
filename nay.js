@@ -6,24 +6,26 @@ console.log(5+5+'5');
 
 const productName = "gosha.chikilyov@gmail.com";
 console.log(productName.includes("@"));
+console.log(productName.length);
 
 // звданя №3
 
 const my = 'my'
 
-const name = 'name'
+const mena = 'name'
 
 const is = 'is'
 
 const Viktor = 'Viktor'
 
-const fullName = 'my name is Viktor'
+// const fullName = my + ' ' + mena + ' ' + is + ' ' + Viktor
+const fullName = `${my} ${mena} ${is} ${Viktor}`
 
-console.log (fullName)
+console.log(fullName)
 
 // звданя №4
 
 const userName = "fox";
 const payment = 207;
-const greeting = alert;(`Welcome ${userName}, your room number is ${payment}!`);
-console.log(greeting); // "Welcome Mango, your room number is 207!"
+const greeting = alert;(`Дякуємо, ${userName}! До сплати ${payment} гривень`);
+console.log(greeting);
